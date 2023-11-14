@@ -1,9 +1,9 @@
 p {
-    color : red;
+    color : #22402e;
 }
 
 body {
-    background-color: #22402e;
+    background-color: #EDF2F4;
 }
 
 .profile-picture {
@@ -20,5 +20,41 @@ body {
 
 .title {
     text-align: right;
-    color: #EDF2F4;
+    color: #22402e;
+}
+
+.title-photo {
+    margin-bottom: 150px;
+}
+
+.sous-title {
+    color: #22402e;
+    text-align: center;
+}
+
+hr.line-1 {
+    border-top: 1px solid #22402e;
+    opacity: 100;
+    width: 10%;
+    align-self: center;
+}
+
+@keyframes animation-elargir {
+    from {width: 10%;}
+    to {width: 12%}
+}
+
+.elargir {
+    animation-name: animation-elargir;
+    animation-duration: 1s;
+}
+
+@keyframes animation-retrecir {
+    from {width: 12%;}
+    to {width: 10%}
+}
+
+.retrecir {
+    animation-name: animation-retrecir;
+    animation-duration: 1s;
 }
