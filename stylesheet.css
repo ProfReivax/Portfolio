@@ -1,3 +1,24 @@
 p {
     color : red;
 }
+
+body {
+    background-color: #22402e;
+}
+
+.profile-picture {
+    width: 400px;
+    height: auto;
+}
+
+.img-header {
+    width: 100%;
+    height: auto;
+    margin-top: -350px;
+    margin-bottom: 100px;
+}
+
+.title {
+    text-align: right;
+    color: #EDF2F4;
+}
